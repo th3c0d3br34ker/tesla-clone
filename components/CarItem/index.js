@@ -1,22 +1,20 @@
 import React from "react";
 import styles from "./styles";
 import { View, Text, ImageBackground } from "react-native";
-import Button from "../Button/index";
 
-const CarItem = () => {
+const CarItem = ({ car }) => {
+  const { name, tagline, taglineCTA, image } = car;
   return (
     <View style={styles.carContainer}>
-      <ImageBackground
-        source={require("../../assets/images/ModelX.jpeg")}
-        style={styles.image}
-      ></ImageBackground>
+      <ImageBackground source={image} style={styles.image}></ImageBackground>
       <View style={styles.titles}>
-        <Text style={styles.title}>Model S</Text>
-        <Text style={styles.subTitle}>Starting at $65,000</Text>
-      </View>
+        <Text style={styles.title}>{name}</Text>
+        <Text style={styles.subTitle}>
+          {tagline}
 
-      <Button type="primary" text="Custom Order" />
-      <Button type="secondary" text="Exsisting Inventory" />
+          <Text style={styles.subTitleCTA}>{taglineCTA}</Text>
+        </Text>
+      </View>
     </View>
   );
 };

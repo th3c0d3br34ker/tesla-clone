@@ -1,5 +1,5 @@
 import React from "react";
-import { Pressable, Text, View } from "react-native";
+import { Pressable, Text, View, ToastAndroid } from "react-native";
 import styles from "./styles";
 
 const Button = ({ type, text }) => {
@@ -11,7 +11,7 @@ const Button = ({ type, text }) => {
       <Pressable
         style={[styles.button, { backgroundColor }]}
         onPress={() => {
-          console.warn("Test");
+          ToastAndroid.show(`${text} Button Pressed!`, ToastAndroid.SHORT);
         }}
       >
         <Text style={[styles.text, { color }]}>{text}</Text>
