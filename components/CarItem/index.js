@@ -1,6 +1,7 @@
 import React from "react";
-import { View, Text, ImageBackground } from "react-native";
 import styles from "./styles";
+import { View, Text, ImageBackground } from "react-native";
+import Button from "../Button/index";
 
 const CarItem = () => {
   return (
@@ -13,6 +14,9 @@ const CarItem = () => {
         <Text style={styles.title}>Model S</Text>
         <Text style={styles.subTitle}>Starting at $65,000</Text>
       </View>
+
+      <Button type="primary" text="Custom Order" />
+      <Button type="secondary" text="Exsisting Inventory" />
     </View>
   );
 };
