@@ -81,7 +81,10 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<p align="center">
+ <img src="images/Screenshot_1.png" alt="Screenshot_1" width="240" height="550">
+ <img src="images/Screenshot_2.png" alt="Screenshot_2" width="240" height="550">
+</p>
 
 ### Built With
 
@@ -158,15 +161,17 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/th3c0d3br34ker/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/th3c0d3br34ker/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/th3c0d3br34ker/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/th3c0d3br34ker/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/th3c0d3br34ker/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/th3c0d3br34ker/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/th3c0d3br34ker/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/th3c0d3br34ker/repo/issues
-[license-shield]: https://img.shields.io/github/license/th3c0d3br34ker/repo.svg?style=for-the-badge
-[license-url]: https://github.com/th3c0d3br34ker/repo/blob/master/LICENSE.txt
-[made-with-shield]: https://img.shields.io/github/languages/top/th3c0d3br34ker/template?style=for-the-badge
-[made-with-url]: https://shields.io/github/languages/top/th3c0d3br34ker/template.svg?style-for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/th3c0d3br34ker/tesla-clone.svg?style=for-the-badge
+[contributors-url]: https://github.com/th3c0d3br34ker/tesla-clone/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/th3c0d3br34ker/tesla-clone.svg?style=for-the-badge
+[forks-url]: https://github.com/th3c0d3br34ker/tesla-clone/network/members
+[stars-shield]: https://img.shields.io/github/stars/th3c0d3br34ker/tesla-clone.svg?style=for-the-badge
+[stars-url]: https://github.com/th3c0d3br34ker/tesla-clone/stargazers
+[issues-shield]: https://img.shields.io/github/issues/th3c0d3br34ker/tesla-clone.svg?style=for-the-badge
+[issues-url]: https://github.com/th3c0d3br34ker/tesla-clone/issues
+[license-shield]: https://img.shields.io/github/license/th3c0d3br34ker/tesla-clone.svg?style=for-the-badge
+[license-url]: https://github.com/th3c0d3br34ker/tesla-clone/blob/master/LICENSE.txt
+[made-with-shield]: https://img.shields.io/github/languages/top/th3c0d3br34ker/tesla-clone?style=for-the-badge
+[made-with-url]: https://shields.io/github/languages/top/th3c0d3br34ker/tesla-clone.svg?style-for-the-badge
+[product-screenshot-1]: images/Screenshot_1.png
+[product-screenshot-2]: images/Screenshot_2.png
