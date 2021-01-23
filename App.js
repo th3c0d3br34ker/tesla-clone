@@ -8,8 +8,8 @@ import Button from "./components/Button";
 export default function App() {
   return (
     <View style={styles.container}>
-      <Header />
       <CarsList />
+      <Header />
       <View style={styles.buttonContainer}>
         <Button type="primary" text="Custom Order" />
         <Button type="secondary" text="Exsisting Inventory" />
@@ -20,6 +20,10 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
+  container: {
+    width: "100%",
+    height: "100%",
+  },
   buttonContainer: {
     position: "absolute",
     bottom: 20,
