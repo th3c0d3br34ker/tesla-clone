@@ -69,9 +69,6 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
@@ -88,8 +85,8 @@
 
 ### Built With
 
-- []()
-- []()
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.io/)
 - []()
 
 <!-- GETTING STARTED -->
@@ -100,37 +97,27 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-
+- node
 - npm
-  ```sh
-  npm install npm@latest -g
-  ```
 
 ### Installation
 
 1. Clone the repo
+
    ```sh
    git clone https://github.com/th3c0d3br34ker/tesla-clone.git
    ```
+
 2. Install NPM packages
+
    ```sh
    npm install
    ```
 
-<!-- USAGE EXAMPLES -->
-
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<!-- ROADMAP -->
-
-## Roadmap
-
-See the [open issues](https://github.com/th3c0d3br34ker/tesla-clone/issues) for a list of proposed features (and known issues).
+3. Run the project
+   ```sh
+   npm run start
+   ```
 
 <!-- CONTRIBUTING -->
 
@@ -154,9 +141,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Acknowledgements
 
-- []()
-- []()
-- []()
+- [Mosh Hamedani.](https://codewithmosh.com/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
